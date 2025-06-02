@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c6f0232c-d39c-4f8e-a01f-b6a19e2c7260" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/atividadeintegrais/Testes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/atividadeintegrais/Testes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/atividadeintegrais/controller/Conversor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/atividadeintegrais/controller/Conversor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +18,7 @@
       <list>
         <option value="FxmlFile" />
         <option value="Class" />
+        <option value="JavaFXApplication" />
       </list>
     </option>
   </component>
@@ -32,6 +32,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -40,25 +43,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.HelloApplication.executor": "Run",
-    "Application.Testes.executor": "Run",
-    "Maven.atividade-integrais [clean,install].executor": "Run",
-    "Maven.atividade-integrais [dependency:purge-local-repository...].executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "proofread",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.HelloApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TelaInicial.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Testes.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.atividade-integrais [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.atividade-integrais [dependency:purge-local-repository...].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;dayvson-mexendo&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/davyusow/Projetos/Java/openjfx-24.0.1_linux-x64_bin-sdk.zip&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;proofread&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn clean install" />
@@ -81,6 +90,8 @@
       <option name="presentableId" value="Default" />
       <updated>1748796734688</updated>
       <workItem from="1748796735831" duration="2781000" />
+      <workItem from="1748882635935" duration="324000" />
+      <workItem from="1748884215509" duration="1827000" />
     </task>
     <servers />
   </component>

@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6f0232c-d39c-4f8e-a01f-b6a19e2c7260" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Start.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Start.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/atividadeintegrais/calculos/IntegracaoNumerica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/atividadeintegrais/calculos/IntegracaoNumerica.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/atividadeintegrais/calculos/Integrais.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/atividadeintegrais/calculos/Integrais.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/atividadeintegrais/view/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/atividadeintegrais/view/View.java" afterDir="false" />
-    </list>
+    <list default="true" id="c6f0232c-d39c-4f8e-a01f-b6a19e2c7260" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -132,7 +126,7 @@
       <workItem from="1748884215509" duration="1827000" />
       <workItem from="1748905382380" duration="1500000" />
       <workItem from="1748907752064" duration="3957000" />
-      <workItem from="1748919165825" duration="5176000" />
+      <workItem from="1748919165825" duration="5305000" />
     </task>
     <servers />
   </component>

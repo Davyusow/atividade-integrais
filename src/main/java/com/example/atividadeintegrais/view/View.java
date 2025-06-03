@@ -137,7 +137,7 @@ public class View {
         function = scanner.nextLine();
 
         resultado = calculadora.segundaRegraDeSimpsonComMaisDeTresSubintervalos(limiteInferior, limiteSuperior, function, trio);
-        System.out.println("\nResultados: " + resultado);
+        System.out.println("\nResultado: " + resultado);
     }
 
 }

@@ -2,16 +2,17 @@ package com.example.atividadeintegrais.calculos;
 
 import net.objecthunter.exp4j.Expression;
 import net.objecthunter.exp4j.ExpressionBuilder;
+import com.example.atividadeintegrais.calculos.*;
 
 public class Integrais implements IntegracaoNumerica {
 
     @Override
     public double calculaResultadoDaExpressao(String expressao, double valor) {
-        Expression e = new ExpressionBuilder(expressao)
-                .variable("x")
+        ExpressionBuilder builder = new ExpressionBuilder(expressao);
+        FuncoesExtras.addFuncoes(builder);
+        Expression e = builder.variable("x")
                 .build()
                 .setVariable("x", valor);
-
         return e.evaluate();
     }
 

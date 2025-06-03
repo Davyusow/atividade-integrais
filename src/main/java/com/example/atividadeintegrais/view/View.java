@@ -1,7 +1,6 @@
 package com.example.atividadeintegrais.view;
 
-import com.example.atividadeintegrais.calculos.IntegracaoNumerica;
-import com.example.atividadeintegrais.calculos.Integrais;
+import com.example.atividadeintegrais.calculos.*;
 
 import java.util.Scanner;
 

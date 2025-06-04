@@ -33,7 +33,7 @@
 
 ---
 
-## Sintaxe Apoiada
+## Sintaxe Usada
 
 ### Operadores Matemáticos
 | Operação        | Sintaxe |
@@ -63,8 +63,8 @@
 | Cotangente       | `cotg(x)`  | `cotg(0.5)` |
 | Logaritmo natural| `ln(x)`    | `ln(1)`     |
 | Arco tangente    | `arctg(x)` | `arctg(1)`  |
-| Arco tangente    | `arcsen(x)`| `arcsen(1)` |
-| Arco tangente    | `arccos(x)`| `arccos(1)` |
+| Arco seno        | `arcsen(x)`| `arcsen(1)` |
+| Arco cosseno     | `arccos(x)`| `arccos(1)` |
 | Exponencial      | `^(x)`     | `e^(x)`     |
 
 

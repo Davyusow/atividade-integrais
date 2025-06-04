@@ -3,6 +3,7 @@ package com.example.atividadeintegrais.calculos;
 public interface IntegracaoNumerica {
 
     public double calculaResultadoDaExpressao(String expressao, double valor);
+    public double calculaResultadoDaExpressao(String expressao);
 
     public double regraDoTrapezioSimples(double limiteInferior, double limiteSuperior, String expressao);
 

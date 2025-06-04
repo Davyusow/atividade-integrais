@@ -16,14 +16,14 @@ public class View {
         double resultado;
 
         System.out.println("\nDigite o limite inferior da integral: ");
-        limiteInferior = scanner.nextDouble();
+        limiteInferior = calculadora.calculaResultadoDaExpressao(scanner.nextLine());
 
         System.out.println("\nDigite o limite superior da integral: ");
-        limiteSuperior = scanner.nextDouble();
+        limiteSuperior = calculadora.calculaResultadoDaExpressao(scanner.nextLine());;
 
 
         System.out.print("\nDigite a função a ser calculada: ");
-        scanner.nextLine(); // limpa buffer (ignore)
+         // limpa buffer (ignore)
         function = scanner.nextLine();
 
         resultado = calculadora.regraDoTrapezioSimples(limiteInferior, limiteSuperior, function);
@@ -37,10 +37,10 @@ public class View {
         double resultado;
 
         System.out.println("\nDigite o limite inferior da integral: ");
-        limiteInferior = scanner.nextDouble();
+        limiteInferior = calculadora.calculaResultadoDaExpressao(scanner.nextLine());;
 
         System.out.println("\nDigite o limite superior da integral: ");
-        limiteSuperior = scanner.nextDouble();
+        limiteSuperior = calculadora.calculaResultadoDaExpressao(scanner.nextLine());;
 
         System.out.println("\nDigite a quantidade de trapezios: ");
         trapezios = scanner.nextInt();
@@ -60,13 +60,13 @@ public class View {
         double resultado;
 
         System.out.println("\nDigite o limite inferior da integral: ");
-        limiteInferior = scanner.nextDouble();
+        limiteInferior = calculadora.calculaResultadoDaExpressao(scanner.nextLine());;
 
         System.out.println("\nDigite o limite superior da integral: ");
-        limiteSuperior = scanner.nextDouble();
+        limiteSuperior = calculadora.calculaResultadoDaExpressao(scanner.nextLine());;
 
         System.out.print("\nDigite a função a ser calculada: ");
-        scanner.nextLine(); // limpa buffer (ignore)
+
         function = scanner.nextLine();
 
         resultado = calculadora.primeiraRegraDeSimpson(limiteInferior, limiteSuperior, function);
@@ -80,10 +80,10 @@ public class View {
         double resultado;
 
         System.out.println("\nDigite o limite inferior da integral: ");
-        limiteInferior = scanner.nextDouble();
+        limiteInferior = calculadora.calculaResultadoDaExpressao(scanner.nextLine());;
 
         System.out.println("\nDigite o limite superior da integral: ");
-        limiteSuperior = scanner.nextDouble();
+        limiteSuperior = calculadora.calculaResultadoDaExpressao(scanner.nextLine());;
 
         System.out.println("\nDigite a quantidade de pares de subconjuntos: ");
         pares = scanner.nextInt();
@@ -103,13 +103,12 @@ public class View {
         double resultado;
 
         System.out.println("\nDigite o limite inferior da integral: ");
-        limiteInferior = scanner.nextDouble();
+        limiteInferior = calculadora.calculaResultadoDaExpressao(scanner.nextLine());;
 
         System.out.println("\nDigite o limite superior da integral: ");
-        limiteSuperior = scanner.nextDouble();
+        limiteSuperior = calculadora.calculaResultadoDaExpressao(scanner.nextLine());;
 
         System.out.print("\nDigite a função a ser calculada: ");
-        scanner.nextLine(); // limpa buffer (ignore)
         function = scanner.nextLine();
 
         resultado = calculadora.segundaRegraDeSimpson(limiteInferior, limiteSuperior, function);
@@ -123,10 +122,10 @@ public class View {
         double resultado;
 
         System.out.println("\nDigite o limite inferior da integral: ");
-        limiteInferior = scanner.nextDouble();
+        limiteInferior = calculadora.calculaResultadoDaExpressao(scanner.nextLine());;
 
         System.out.println("\nDigite o limite superior da integral: ");
-        limiteSuperior = scanner.nextDouble();
+        limiteSuperior = calculadora.calculaResultadoDaExpressao(scanner.nextLine());;
 
         System.out.println("\nDigite a quantidade de trio de subconjuntos: ");
         trio = scanner.nextInt();
@@ -186,6 +185,8 @@ public class View {
                 System.out.println("Opção inválida!");
                 break;
         }
+        System.out.println("Digite qualquer tecla para sair...");
+        scanner.nextLine();
     }
 
     private int lerInteiro(int min,int max){

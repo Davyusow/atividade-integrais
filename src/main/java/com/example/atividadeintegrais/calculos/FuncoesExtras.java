@@ -8,7 +8,7 @@ public class FuncoesExtras {
     public static final Function SEN = new Function("sen",1) {
         @Override
         public double apply(double... doubles) {
-            return Math.sin(Math.toRadians(doubles[0]));
+            return Math.sin(doubles[0]);
         }
     };
 

@@ -14,6 +14,13 @@ public class Integrais implements IntegracaoNumerica {
                 .setVariable("x", valor);
         return e.evaluate();
     }
+    public double calculaResultadoDaExpressao(String expressao) {
+        ExpressionBuilder builder = new ExpressionBuilder(expressao);
+        FuncoesExtras.addFuncoes(builder);
+        Expression e = builder.variable("x")
+                .build();
+        return e.evaluate();
+    }
 
     @Override
     public double regraDoTrapezioSimples(double limiteInferior, double limiteSuperior, String expressao) {
@@ -139,10 +146,12 @@ public class Integrais implements IntegracaoNumerica {
     }
 
     public double erroTrapezioComposta(double a, double b, String expressao, int n) {
-        double h = (b - a) / n;
-        double xMeio = (a + b) / 2;
-        double derivadaSegunda = derivadaSegunda(expressao, xMeio);
-        return -Math.pow(b - a, 3) / (12 * n * n) * derivadaSegunda;
+        double h = (b - a)/n;
+        double maxSegundaDerivada = Math.max(
+                Math.abs(derivadaSegunda(expressao, a)),
+                Math.abs(derivadaSegunda(expressao, b))
+        );
+        return -Math.pow(h, 2) * (b - a) / 12 * maxSegundaDerivada;
     }
 
     private double erroSimpsonComposta(double a, double b, String expressao, int n) {

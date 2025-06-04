@@ -11,10 +11,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c6f0232c-d39c-4f8e-a01f-b6a19e2c7260" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/atividadeintegrais/calculos/FuncoesExtras.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/atividadeintegrais/calculos/FuncoesExtras.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/atividadeintegrais/calculos/IntegracaoNumerica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/atividadeintegrais/calculos/IntegracaoNumerica.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/atividadeintegrais/calculos/Integrais.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/atividadeintegrais/calculos/Integrais.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/atividadeintegrais/view/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/atividadeintegrais/view/View.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +142,7 @@
       <workItem from="1748995522713" duration="4739000" />
       <workItem from="1749043049220" duration="3147000" />
       <workItem from="1749048432673" duration="3811000" />
-      <workItem from="1749074979499" duration="2587000" />
+      <workItem from="1749074979499" duration="3480000" />
     </task>
     <servers />
   </component>

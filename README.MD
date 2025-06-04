@@ -43,6 +43,7 @@
 | Multiplicação   | `*`     |
 | Divisão         | `/`     |
 | Potência        | `^`     |
+| Módulo          | `%`     |
 
 ### Constantes
 | Constante       | Sintaxe |
@@ -58,8 +59,12 @@
 | Cosseno          | `cos(x)`   | `cos(0)`    |
 | Tangente         | `tan(x)`   | `tan(pi/4)` |
 | Secante          | `sec(x)`   | `sec(1)`    |
+| Cossecante       | `cosec(x)` | `cosec(1)`  |
+| Cotangente       | `cotg(x)`  | `cotg(0.5)` |
 | Logaritmo natural| `ln(x)`    | `ln(1)`     |
 | Arco tangente    | `arctg(x)` | `arctg(1)`  |
+| Arco tangente    | `arcsen(x)`| `arcsen(1)` |
+| Arco tangente    | `arccos(x)`| `arccos(1)` |
 | Exponencial      | `^(x)`     | `e^(x)`     |
 
 

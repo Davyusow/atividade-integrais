@@ -65,7 +65,7 @@
 | Arco tangente    | `arctg(x)` | `arctg(1)`  |
 | Arco seno        | `arcsen(x)`| `arcsen(1)` |
 | Arco cosseno     | `arccos(x)`| `arccos(1)` |
-| Exponencial      | `^(x)`     | `e^(x)`     |
+| Exponencial      | `^(x)`     | `e^(2)`     |
 
 
 ---

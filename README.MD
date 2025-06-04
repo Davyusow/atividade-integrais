@@ -101,7 +101,7 @@
    ```powershell
    Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass  # Permitir scripts
    ```
-   E Clique com o botão direito no arquivo e execute com o powershell
+   Ou Clique com o botão direito no arquivo **Windows.ps1** e execute com o powershell
 
 
 ---

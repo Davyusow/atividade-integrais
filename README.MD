@@ -43,17 +43,26 @@
 | Multiplicação   | `*`     |
 | Divisão         | `/`     |
 
+### Constantes
+| Constante       | Sintaxe |
+|-----------------|---------|
+| Euler           | `e`     |
+| Pi(π)           | `pi`    |
+
+
 ### Funções Matemáticas
 | Função           | Sintaxe    | Exemplo     |
 |------------------|------------|-------------|
-| Seno             | `sen(x)`   | `sen(π/2)`  |
+| Seno             | `sen(x)`   | `sen(pi/2)`  |
 | Cosseno          | `cos(x)`   | `cos(0)`    |
-| Tangente         | `tan(x)`   | `tan(π/4)`  |
+| Tangente         | `tan(x)`   | `tan(pi/4)`  |
 | Secante          | `sec(x)`   | `sec(1)`    |
 | Logaritmo natural| `ln(x)`    | `ln(1)`     |
 | Arco tangente    | `arctg(x)` | `arctg(1)`  |
 
+
 ---
+
 
 ## Instalação e Execução
 
